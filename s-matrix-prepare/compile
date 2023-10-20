@@ -1,0 +1,9 @@
+flag='-g -check all -fpp -no-wrap-margin'
+ifort constants.f90 -c
+ifort structs.f90 -c
+ifort numeric.f -c
+ifort stdio.f90 -c
+ifort darray.f90 -c
+ifort init_final.f90 -c
+ifort correlate_pivot.f -c
+ifort correlate_pivot.o numeric.o init_final.o stdio.o darray.o  smooth.f90 -o smooth.x ${flag}

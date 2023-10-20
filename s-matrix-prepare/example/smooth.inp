@@ -1,0 +1,13 @@
+jjorder = no
+inherit = no
+herit_point = 10
+skip = {5,7}
+radiation = yes
+debug = all
+correlate_point = first #prev # alternative Ug or first
+chan_ion = {4S1.5s 4S1.5d1.5 4S1.5d2.5}
+chan_eig = {3S1, 3D1,   5D1}
+#ug_sign = {1, 1, 1} # not mandatory, program will pivot the rolls and set pivot value +
+chan_ion_target_cf = {1, 1, 1}
+manual_swap = {1-2:1 2 3; 5-6:1 2 3}
+manual_sign= {1-2:1 1 1; 5-6:1 1 1}

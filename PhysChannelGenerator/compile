@@ -1,0 +1,6 @@
+ifort -r8 -O3 rscfp.f -o rscfp
+ifort -r8 -O3 rwfp.f -o rwfp
+RWFDIR=`pwd`
+ifort channel-exp-rwfp.f -o channel-exp-rwfp
+ifort channel-theory-rwfp.f -o channel-theory-rwfp
+

@@ -1,0 +1,8 @@
+3 3 #number of NR-cfgs and number of NR-orbtials
+1 -1 #n and kappa for 1s0.5
+2 2 2 
+2 -1 #n and kappa for 2s0.5
+2 1 0 
+2 -2 #n and kappa for 2p1.5
+3 4 5 
+
